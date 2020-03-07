@@ -1,0 +1,732 @@
+array.c:#ifdef HAVE_STDARG_PROTOTYPES
+array.c:#ifdef HAVE_STDARG_PROTOTYPES
+bignum.c:#ifdef HAVE_IEEEFP_H
+bignum.c:#if HAVE_LONG_LONG
+bignum.c:#ifdef HAVE_LONG_LONG
+bignum.c:#if HAVE_LONG_LONG
+bignum.c:#endif  /* HAVE_LONG_LONG */
+bignum.c:#if HAVE_LONG_LONG
+bignum.c:#endif  /* HAVE_LONG_LONG */
+class.c:#ifdef HAVE_STDARG_PROTOTYPES
+class.c:#ifdef HAVE_STDARG_PROTOTYPES
+defines.h:# ifndef  HAVE_PROTOTYPES
+defines.h:#  define HAVE_PROTOTYPES 1
+defines.h:# ifndef  HAVE_STDARG_PROTOTYPES
+defines.h:#  define HAVE_STDARG_PROTOTYPES 1
+defines.h:#ifdef HAVE_PROTOTYPES
+defines.h:#ifdef HAVE_STDARG_PROTOTYPES
+defines.h:# define HAVE_LONG_LONG 1
+dir.c:#ifdef HAVE_UNISTD_H
+dir.c:#if defined HAVE_DIRENT_H && !defined _WIN32
+dir.c:#elif defined HAVE_DIRECT_H && !defined _WIN32
+dir.c:# if HAVE_SYS_NDIR_H
+dir.c:# if HAVE_SYS_DIR_H
+dir.c:# if HAVE_NDIR_H
+dir.c:#ifndef HAVE_STDLIB_H
+dir.c:#ifndef HAVE_STRING_H
+dir.c:#ifndef HAVE_LSTAT
+dir.c:#ifdef HAVE_TELLDIR
+dir.c:#ifdef HAVE_SEEKDIR
+dir.c:#if defined(HAVE_CHROOT) && !defined(__CHECKER__)
+dln.c:#ifdef HAVE_STDLIB_H
+dln.c:#undef HAVE_DLOPEN
+dln.c:#if defined(HAVE_ALLOCA_H)
+dln.c:#ifdef HAVE_STRING_H
+dln.c:#ifdef HAVE_SYS_PARAM_H
+dln.c:#ifdef HAVE_UNISTD_H
+dln.c:#if defined(HAVE_DLOPEN) && !defined(USE_DLN_A_OUT) && !defined(_AIX) && !defined(__APPLE__) && !defined(_UNICOSMP)
+dln.h:# ifndef  HAVE_PROTOTYPES
+dln.h:#  define HAVE_PROTOTYPES 1
+dln.h:# ifndef  HAVE_STDARG_PROTOTYPES
+dln.h:#  define HAVE_STDARG_PROTOTYPES 1
+dln.h:#ifdef HAVE_PROTOTYPES
+error.c:#ifdef HAVE_STDARG_PROTOTYPES
+error.c:#ifdef HAVE_STDARG_PROTOTYPES
+error.c:#ifdef HAVE_STDARG_PROTOTYPES
+error.c:#ifdef HAVE_STDARG_PROTOTYPES
+error.c:#ifdef HAVE_STDARG_PROTOTYPES
+error.c:#ifdef HAVE_STDARG_PROTOTYPES
+error.c:#ifdef HAVE_STDARG_PROTOTYPES
+error.c:#ifdef HAVE_STDARG_PROTOTYPES
+error.c:#ifdef HAVE_STDARG_PROTOTYPES
+error.c:#ifdef HAVE_STDARG_PROTOTYPES
+error.c:#ifdef HAVE_STDARG_PROTOTYPES
+eval.c:#ifdef HAVE_STDLIB_H
+eval.c:#if defined(HAVE_UCONTEXT_H) && (defined(__ia64__) || defined(HAVE_NATIVETHREAD)) && !defined(__stub_getcontext)
+eval.c:# ifdef HAVE_ALLOCA_H
+eval.c:# endif /* HAVE_ALLOCA_H */
+eval.c:#ifdef HAVE_STDARG_PROTOTYPES
+eval.c:#ifndef HAVE_STRING_H
+eval.c:#ifdef HAVE_UNISTD_H
+eval.c:#ifdef HAVE__SETJMP
+eval.c:#ifdef HAVE_SYS_SELECT_H
+eval.c:#ifdef HAVE_STDARG_PROTOTYPES
+eval.c:#ifdef HAVE_NATIVETHREAD
+eval.c:#ifdef HAVE_NATIVETHREAD
+eval.c:#ifdef HAVE_STDARG_PROTOTYPES
+eval.c:#ifdef HAVE_STDARG_PROTOTYPES
+eval.c:#ifdef HAVE_STDARG_PROTOTYPES
+eval.c:#if !defined HAVE_PAUSE
+eval.c:#ifdef HAVE_NATIVETHREAD
+eval.c:#ifdef HAVE_NANOSLEEP
+eval.c:#elif defined(HAVE_SETITIMER)
+eval.c:#else  /* !(_THREAD_SAFE || HAVE_SETITIMER) */
+eval.c:#if defined(HAVE_SETITIMER) || defined(_THREAD_SAFE)
+file.c:#ifdef HAVE_UNISTD_H
+file.c:#ifdef HAVE_SYS_FILE_H
+file.c:#ifdef HAVE_SYS_PARAM_H
+file.c:#ifdef HAVE_UTIME_H
+file.c:#elif defined HAVE_SYS_UTIME_H
+file.c:#ifdef HAVE_PWD_H
+file.c:#ifndef HAVE_STRING_H
+file.c:#ifdef HAVE_SYS_MKDEV_H
+file.c:#ifndef HAVE_LSTAT
+file.c:#ifdef HAVE_ST_RDEV
+file.c:#if defined(HAVE_ST_RDEV) && defined(major)
+file.c:#if defined(HAVE_ST_RDEV) && defined(minor)
+file.c:#ifdef HAVE_ST_BLKSIZE
+file.c:#ifdef HAVE_ST_BLOCKS
+file.c:#ifdef HAVE_LSTAT
+file.c:#ifdef HAVE_LSTAT
+file.c:# ifdef HAVE_GETGROUPS
+file.c:#ifdef HAVE_FCHMOD
+file.c:#if defined(HAVE_LCHMOD)
+file.c:#if defined(HAVE_LCHOWN) && !defined(__CHECKER__)
+file.c:#if defined(HAVE_UTIMES) && !defined(__CHECKER__)
+file.c:#if !defined HAVE_UTIME_H && !defined HAVE_SYS_UTIME_H
+file.c:#ifdef HAVE_SYMLINK
+file.c:#ifdef HAVE_READLINK
+file.c:#ifdef HAVE_PWD_H
+file.c:#ifdef HAVE_PWD_H
+file.c:#ifdef HAVE_TRUNCATE
+file.c:# ifdef HAVE_CHSIZE
+file.c:#ifdef HAVE_TRUNCATE
+file.c:# ifdef HAVE_CHSIZE
+gc.c:#ifdef HAVE_SYS_TIME_H
+gc.c:#ifdef HAVE_SYS_RESOURCE_H
+gc.c:#if !defined(setjmp) && defined(HAVE__SETJMP)
+gc.c:# ifdef HAVE_ALLOCA_H
+gc.c:# endif /* HAVE_ALLOCA_H */
+gc.c:# undef HAVE_GETRLIMIT
+gc.c:#ifdef HAVE_GETRLIMIT
+gc.c:#ifdef HAVE_NATIVETHREAD
+gc.c:#ifdef HAVE_GETRLIMIT
+intern.h:#if HAVE_LONG_LONG
+intern.h:#endif  /* HAVE_LONG_LONG */
+intern.h:#define HAVE_RB_DEFINE_ALLOC_FUNC 1
+io.c:#if defined(HAVE_FCNTL_H) || defined(_WIN32)
+io.c:#elif defined(HAVE_SYS_FCNTL_H)
+io.c:#if !HAVE_OFF_T && !defined(off_t)
+io.c:#if !HAVE_FSEEKO && !defined(fseeko)
+io.c:#if !HAVE_FTELLO && !defined(ftello)
+io.c:#if defined(HAVE_SYS_PARAM_H) && !(defined(__EMX__) || defined(__HIUX_MPP__))
+io.c:#ifdef HAVE_UNISTD_H
+io.c:#if SIZEOF_OFF_T > SIZEOF_LONG && !defined(HAVE_LONG_LONG)
+io.c:#ifdef HAVE_FSYNC
+io.c:#if defined(HAVE_FCNTL) && defined(F_GETFL)
+io.c:#ifdef HAVE_FCHMOD
+io.c:#ifdef HAVE_SYS_SELECT_H
+io.c:#ifdef HAVE_FCNTL
+io.c:#ifdef HAVE_FCNTL
+io.c:#if defined(HAVE_SYSCALL) && !defined(__CHECKER__)
+marshal.c:#ifdef HAVE_FLOAT_H
+marshal.c:#ifdef HAVE_IEEEFP_H
+math.c:#ifndef HAVE_COSH
+math.c:#ifndef HAVE_SINH
+math.c:#ifndef HAVE_TANH
+missing.h:#if defined(HAVE_SYS_TIME_H)
+missing.h:#ifndef HAVE_ACOSH
+missing.h:#ifndef HAVE_CRYPT
+missing.h:#ifndef HAVE_DUP2
+missing.h:#ifndef HAVE_FINITE
+missing.h:#ifndef HAVE_FLOCK
+missing.h:#ifndef HAVE_FREXP
+missing.h:#ifndef HAVE_HYPOT
+missing.h:#ifndef HAVE_ERF
+missing.h:#ifndef HAVE_ISINF
+missing.h:# if defined(HAVE_FINITE) && defined(HAVE_ISNAN)
+missing.h:#ifndef HAVE_ISNAN
+missing.h:#ifndef HAVE_MEMCMP
+missing.h:#ifndef HAVE_MEMMOVE
+missing.h:#ifndef HAVE_MKDIR
+missing.h:#ifndef HAVE_MODF
+missing.h:#ifndef HAVE_STRCASECMP
+missing.h:#ifndef HAVE_STRNCASECMP
+missing.h:#ifndef HAVE_STRCHR
+missing.h:#ifndef HAVE_STRERROR
+missing.h:#ifndef HAVE_STRFTIME
+missing.h:#ifndef HAVE_STRSTR
+missing.h:#ifndef HAVE_STRTOL
+missing.h:#ifndef HAVE_STRTOUL
+missing.h:#ifndef HAVE_VSNPRINTF
+missing.h:# ifdef HAVE_STDARG_PROTOTYPES
+numeric.c:#ifdef HAVE_FLOAT_H
+numeric.c:#ifdef HAVE_IEEEFP_H
+numeric.c:#ifdef HAVE_FMOD
+numeric.c:#if HAVE_FINITE
+numeric.c:#if HAVE_LONG_LONG
+numeric.c:#endif  /* HAVE_LONG_LONG */
+pack.c:#ifdef HAVE_LONG_LONG
+parse.c:#ifdef HAVE_LONG_LONG
+process.c:#ifdef HAVE_STDLIB_H
+process.c:#ifdef HAVE_UNISTD_H
+process.c:#ifdef HAVE_SYS_WAIT_H
+process.c:#ifdef HAVE_GETPRIORITY
+process.c:#undef HAVE_GETPGRP
+process.c:#ifdef HAVE_SYS_TIMES_H
+process.c:#ifdef HAVE_GRP_H
+process.c:#if defined(HAVE_TIMES) || defined(_WIN32)
+process.c:#define HAVE_44BSD_SETUID 1
+process.c:#define HAVE_44BSD_SETGID 1
+process.c:#if defined(HAVE_44BSD_SETUID) || defined(__MacOS_X__)
+process.c:#if !defined(HAVE_WAITPID) && !defined(HAVE_WAIT4)
+process.c:#ifdef HAVE_WAITPID
+process.c:#else  /* HAVE_WAIT4 */
+process.c:#ifndef HAVE_STRING_H
+process.c:#ifdef HAVE_SETITIMER
+process.c:#if defined(HAVE_GETPGRP) && defined(GETPGRP_VOID)
+process.c:# ifdef HAVE_GETPGID
+process.c:#ifdef HAVE_SETPGID
+process.c:#elif defined(HAVE_SETPGRP) && defined(SETPGRP_VOID)
+process.c:#if defined(HAVE_GETPGID) && !defined(__CHECKER__)
+process.c:#ifdef HAVE_SETPGID
+process.c:#if defined(HAVE_SETSID)
+process.c:#elif defined(HAVE_SETPGRP) && defined(TIOCNOTTY)
+process.c:#ifdef HAVE_GETPRIORITY
+process.c:#ifdef HAVE_GETPRIORITY
+process.c:#if defined HAVE_SETUID
+process.c:#if defined HAVE_SETRUID
+process.c:#if defined HAVE_SETEUID
+process.c:#if defined HAVE_SETREUID
+process.c:#if defined HAVE_SETRESUID
+process.c:#if defined(HAVE_SETRESUID) &&  !defined(__CHECKER__)
+process.c:#elif defined HAVE_SETREUID
+process.c:#elif defined HAVE_SETRUID
+process.c:#elif defined HAVE_SETUID
+process.c:#if defined(HAVE_SETRESUID)
+process.c:#elif defined(HAVE_SETUID)
+process.c:#elif defined(HAVE_SETREUID) && !defined(OBSOLETE_SETREUID)
+process.c:#elif defined(HAVE_SETRUID) && defined(HAVE_SETEUID)
+process.c:#if defined(HAVE_SETRESUID)
+process.c:#elif defined(HAVE_SETREUID) && !defined(OBSOLETE_SETREUID)
+process.c:#elif defined(HAVE_SETRUID) && defined(HAVE_SETEUID)
+process.c:#elif defined HAVE_44BSD_SETUID
+process.c:#elif defined HAVE_SETEUID
+process.c:#elif defined HAVE_SETUID
+process.c:#if defined HAVE_SETGID
+process.c:#if defined HAVE_SETRGID
+process.c:#if defined HAVE_SETEGID
+process.c:#if defined HAVE_SETREGID
+process.c:#if defined HAVE_SETRESGID
+process.c:#if defined HAVE_ISSETUGID
+process.c:#if defined(HAVE_SETRESGID) && !defined(__CHECKER__)
+process.c:#elif defined HAVE_SETREGID
+process.c:#elif defined HAVE_SETRGID
+process.c:#elif defined HAVE_SETGID
+process.c:#ifdef HAVE_GETGROUPS
+process.c:#ifdef HAVE_SETGROUPS
+process.c:#ifdef HAVE_INITGROUPS
+process.c:#if defined(HAVE_SETRESGID)
+process.c:#elif defined HAVE_SETGID
+process.c:#elif defined(HAVE_SETREGID) && !defined(OBSOLETE_SETREGID)
+process.c:#elif defined(HAVE_SETRGID) && defined (HAVE_SETEGID)
+process.c:#if defined(HAVE_SETRESGID)
+process.c:#elif defined(HAVE_SETREGID) && !defined(OBSOLETE_SETREGID)
+process.c:#elif defined(HAVE_SETRGID) && defined(HAVE_SETEGID)
+process.c:#elif defined HAVE_44BSD_SETGID
+process.c:#elif defined HAVE_SETEGID
+process.c:#elif defined HAVE_SETGID
+process.c:#if defined(HAVE_SETRESUID) && !defined(__CHECKER__)
+process.c:#elif defined HAVE_SETREUID
+process.c:#elif defined HAVE_SETEUID
+process.c:#elif defined HAVE_SETUID
+process.c:#if defined(HAVE_SETRESUID) && !defined(__CHECKER__)
+process.c:#elif defined(HAVE_SETREUID) && !defined(OBSOLETE_SETREUID)
+process.c:#elif defined HAVE_SETEUID
+process.c:#elif defined HAVE_SETUID
+process.c:#if defined(HAVE_SETRESGID) && !defined(__CHECKER__)
+process.c:#elif defined HAVE_SETREGID
+process.c:#elif defined HAVE_SETEGID
+process.c:#elif defined HAVE_SETGID
+process.c:#if defined(HAVE_SETRESGID) && !defined(__CHECKER__)
+process.c:#elif defined(HAVE_SETREGID) && !defined(OBSOLETE_SETREGID)
+process.c:#elif defined HAVE_SETEGID
+process.c:#elif defined HAVE_SETGID
+process.c:#if defined(HAVE_SETRESUID) &&  !defined(__CHECKER__)
+process.c:#elif defined(HAVE_SETREUID) && !defined(OBSOLETE_SETREUID)
+process.c:#if defined(HAVE_SETRESUID) &&  !defined(__CHECKER__)
+process.c:#elif defined(HAVE_SETREUID) && !defined(OBSOLETE_SETREUID)
+process.c:#if defined(HAVE_SETRESGID) &&  !defined(__CHECKER__)
+process.c:#elif defined(HAVE_SETREGID) && !defined(OBSOLETE_SETREGID)
+process.c:#if defined(HAVE_SETRESGID) &&  !defined(__CHECKER__)
+process.c:#elif defined(HAVE_SETREGID) && !defined(OBSOLETE_SETREGID)
+process.c:#if defined(HAVE_SETRESUID) || defined(HAVE_SETEUID) || defined(_POSIX_SAVED_IDS)
+process.c:#if defined(HAVE_SETRESUID) || defined(HAVE_SETEUID) || defined(_POSIX_SAVED_IDS)
+process.c:#if defined(HAVE_SETRESGID) || defined(HAVE_SETEGID) || defined(_POSIX_SAVED_IDS)
+process.c:#if defined(HAVE_SETRESGID) || defined(HAVE_SETEGID) || defined(_POSIX_SAVED_IDS)
+process.c:#if defined(HAVE_TIMES) && !defined(__CHECKER__)
+process.c:#ifdef HAVE_GETPRIORITY
+process.c:#if defined(HAVE_TIMES) || defined(_WIN32)
+random.c:#ifdef HAVE_UNISTD_H
+regex.c:#ifdef HAVE_STRING_H
+regex.c:#ifdef HAVE_PROTOTYPES
+regex.c:# if defined(HAVE_ALLOCA_H)
+regex.c:#ifdef HAVE_STRING_H
+regex.c:#if defined STDC_HEADERS || (!defined isascii && !defined HAVE_ISASCII)
+ruby.c:#ifdef HAVE_UNISTD_H
+ruby.c:#ifndef HAVE_STRING_H
+ruby.c:#ifndef HAVE_STDLIB_H
+ruby.c:#elif defined(HAVE_SETPROCTITLE)
+ruby.h:#ifdef HAVE_STDLIB_H
+ruby.h:#ifdef HAVE_STRING_H
+ruby.h:#ifdef HAVE_INTRINSICS_H
+ruby.h:#if defined(HAVE_ALLOCA_H)
+ruby.h:#  ifdef HAVE_LIMITS_H
+ruby.h:#if HAVE_LONG_LONG
+ruby.h:#if HAVE_LONG_LONG
+ruby.h:#if SIZEOF_OFF_T > SIZEOF_LONG && defined(HAVE_LONG_LONG)
+ruby.h:#if HAVE_LONG_LONG
+ruby.h:#if HAVE_LONG_LONG && SIZEOF_OFF_T > SIZEOF_LONG
+ruby.h:#if defined(HAVE_PROTOTYPES)
+ruby.h:#if defined(HAVE_PROTOTYPES)
+ruby.h:#if defined(HAVE_PROTOTYPES)
+ruby.h:#if defined(HAVE_LIBPTHREAD)
+ruby.h:#ifdef HAVE_PTHREAD_H
+ruby.h:# define HAVE_NATIVETHREAD
+ruby.h:# define HAVE_NATIVETHREAD
+ruby.h:#ifdef HAVE_NATIVETHREAD
+rubysig.h:#if defined(HAVE_SETITIMER)
+signal.c:# ifdef HAVE_SIGPROCMASK
+signal.c:# ifdef HAVE_SIGPROCMASK
+signal.c:#if defined(HAVE_SETITIMER)
+signal.c:#ifdef HAVE_SIGPROCMASK
+signal.c:#ifdef HAVE_SIGPROCMASK
+signal.c:# ifdef HAVE_SIGPROCMASK
+signal.c:# ifdef HAVE_SIGPROCMASK
+signal.c:# ifdef HAVE_SIGPROCMASK
+signal.c:# ifdef HAVE_SIGPROCMASK
+signal.c:#ifdef HAVE_SIGPROCMASK
+string.c:#ifdef HAVE_UNISTD_H
+struct.c:#ifdef HAVE_STDARG_PROTOTYPES
+struct.c:#ifdef HAVE_STDARG_PROTOTYPES
+struct.c:#ifdef HAVE_STDARG_PROTOTYPES
+time.c:#ifdef HAVE_UNISTD_H
+time.c:#if defined(HAVE_TIMEGM)
+time.c:#if defined(HAVE_MKTIME)
+time.c:#if !defined(HAVE_TM_ZONE) && (!defined(HAVE_TZNAME) || !defined(HAVE_DAYLIGHT))
+time.c:#if defined(HAVE_TM_ZONE)
+time.c:#elif defined(HAVE_TZNAME) && defined(HAVE_DAYLIGHT)
+time.c:#if defined(HAVE_STRUCT_TM_TM_GMTOFF)
+util.c:#ifndef HAVE_STRING_H
+util.c:#ifdef HAVE_UNISTD_H
+util.c:#if defined(HAVE_FCNTL_H)
+util.c:#ifdef HAVE_GETCWD
+util.h:# ifndef  HAVE_PROTOTYPES
+util.h:#  define HAVE_PROTOTYPES 1
+util.h:# ifndef  HAVE_STDARG_PROTOTYPES
+util.h:#  define HAVE_STDARG_PROTOTYPES 1
+util.h:#ifdef HAVE_PROTOTYPES
+util.h:#ifdef HAVE_STDARG_PROTOTYPES
+missing/acosh.c:#ifndef HAVE_ACOSH
+missing/acosh.c:#ifndef HAVE_ASINH
+missing/acosh.c:#ifndef HAVE_ATANH
+missing/dup2.c:#if defined(HAVE_FCNTL)
+missing/dup2.c:#if !defined(HAVE_FCNTL) || !defined(F_DUPFD)
+missing/dup2.c:#if defined(HAVE_FCNTL) && defined(F_DUPFD)
+missing/flock.c:#if defined HAVE_FCNTL && defined HAVE_FCNTL_H
+missing/flock.c:#elif defined(HAVE_LOCKF)
+missing/isinf.c:#if defined(HAVE_FINITE) && defined(HAVE_ISNAN)
+missing/isinf.c:#ifdef HAVE_IEEEFP_H
+missing/isinf.c:#ifdef HAVE_STRING_H
+missing/strftime.c:#if !defined(OS2) && !defined(MSDOS) && defined(HAVE_TZNAME)
+missing/strftime.c:#ifndef HAVE_TM_ZONE
+missing/strftime.c:#ifndef HAVE_TM_NAME
+missing/strftime.c:#ifndef HAVE_TZNAME
+missing/strftime.c:#endif /* HAVE_TZNAME */
+missing/strftime.c:#endif /* HAVE_TM_NAME */
+missing/strftime.c:#endif /* HAVE_TM_ZONE */
+missing/strftime.c:#ifdef HAVE_TM_NAME
+missing/strftime.c:#else /* !HAVE_TM_NAME */
+missing/strftime.c:#ifdef HAVE_TM_ZONE
+missing/strftime.c:#else /* !HAVE_TM_ZONE */
+missing/strftime.c:#if HAVE_TZNAME
+missing/strftime.c:#else /* !HAVE_TZNAME */
+missing/strftime.c:#endif /* !HAVE_TZNAME */
+missing/strftime.c:#endif /* !HAVE_TM_ZONE */
+missing/strftime.c:#endif /* !HAVE_TM_NAME */
+missing/strftime.c:#ifdef HAVE_TZNAME
+missing/strftime.c:#ifdef HAVE_TM_ZONE
+missing/strftime.c:#ifdef HAVE_TM_NAME
+missing/strftime.c:#endif /* HAVE_TM_NAME */
+missing/strftime.c:#endif /* HAVE_TM_ZONE */
+missing/strftime.c:#endif /* HAVE_TZNAME */
+missing/strtod.c:#ifdef HAVE_STDLIB_H
+missing/vsnprintf.c:#  ifdef HAVE_LIMITS_H
+missing/vsnprintf.c:#ifdef _HAVE_SANE_QUAD_
+missing/vsnprintf.c:#endif /* _HAVE_SANE_QUAD_ */
+missing/vsnprintf.c:#ifdef _HAVE_SANE_QUAD_
+missing/vsnprintf.c:#endif /* _HAVE_SANE_QUAD_ */
+missing/vsnprintf.c:#ifdef _HAVE_SANE_QUAD_
+missing/vsnprintf.c:#endif /* _HAVE_SANE_QUAD_ */
+missing/vsnprintf.c:#ifdef _HAVE_SANE_QUAD_
+missing/vsnprintf.c:#else /* _HAVE_SANE_QUAD_ */
+missing/vsnprintf.c:#endif /* _HAVE_SANE_QUAD_ */
+missing/vsnprintf.c:#ifdef _HAVE_SANE_QUAD_
+missing/vsnprintf.c:#else /* _HAVE_SANE_QUAD_ */
+missing/vsnprintf.c:#endif /* _HAVE_SANE_QUAD_ */
+missing/vsnprintf.c:#ifdef _HAVE_SANE_QUAD_
+missing/vsnprintf.c:#endif /* _HAVE_SANE_QUAD_ */
+missing/vsnprintf.c:#ifdef _HAVE_SANE_QUAD_
+missing/vsnprintf.c:#else /* _HAVE_SANE_QUAD_ */
+missing/vsnprintf.c:#endif /* _HAVE_SANE_QUAD_ */
+missing/vsnprintf.c:#ifdef _HAVE_SANE_QUAD_
+missing/vsnprintf.c:#endif /* _HAVE_SANE_QUAD_ */
+missing/vsnprintf.c:#ifdef _HAVE_SANE_QUAD_
+missing/vsnprintf.c:#endif /* _HAVE_SANE_QUAD_ */
+missing/vsnprintf.c:#ifdef _HAVE_SANE_QUAD_
+missing/vsnprintf.c:#else /* _HAVE_SANE_QUAD_ */
+missing/vsnprintf.c:#endif /* _HAVE_SANE_QUAD_ */
+missing/vsnprintf.c:#ifdef _HAVE_SANE_QUAD_
+missing/vsnprintf.c:#else /* _HAVE_SANE_QUAD_ */
+missing/vsnprintf.c:#endif /* _HAVE_SANE_QUAD_ */
+missing/x68.c:#if !HAVE_SELECT
+missing/x68.c:#ifndef HAVE_GETTIMEOFDAY
+win32/win32.c:#if HAVE_WSAWAITFORMULTIPLEEVENTS
+win32/win32.c:#ifdef HAVE_SYS_PARAM_H
+ext/curses/curses.c:#if defined(HAVE_NCURSES_H)
+ext/curses/curses.c:#elif defined(HAVE_NCURSES_CURSES_H)
+ext/curses/curses.c:#elif defined(HAVE_CURSES_COLR_CURSES_H)
+ext/curses/curses.c:#ifdef HAVE_INIT_COLOR
+ext/curses/curses.c:#ifdef HAVE_ISENDWIN
+ext/curses/curses.c:#ifdef HAVE_ISENDWIN
+ext/curses/curses.c:#ifdef HAVE_ISENDWIN
+ext/curses/curses.c:#ifdef HAVE_DOUPDATE
+ext/curses/curses.c:#ifdef HAVE_BEEP
+ext/curses/curses.c:#ifdef HAVE_FLASH
+ext/curses/curses.c:#ifdef HAVE_UNGETCH
+ext/curses/curses.c:#if defined(HAVE_GETNSTR)
+ext/curses/curses.c:#if defined(HAVE_DELETELN) || defined(deleteln)
+ext/curses/curses.c:#ifdef HAVE_KEYNAME
+ext/curses/curses.c:#ifdef HAVE_CURS_SET
+ext/curses/curses.c:#ifdef HAVE_SCRL
+ext/curses/curses.c:#ifdef HAVE_SETSCRREG
+ext/curses/curses.c:#ifdef HAVE_BKGDSET
+ext/curses/curses.c:#ifdef HAVE_BKGD
+ext/curses/curses.c:#if defined(HAVE_RESIZETERM)
+ext/curses/curses.c:#ifdef HAVE_TIMEOUT
+ext/curses/curses.c:#ifdef HAVE_DEF_PROG_MODE
+ext/curses/curses.c:#ifdef HAVE_RESET_PROG_MODE
+ext/curses/curses.c:#ifdef HAVE_DOUPDATE
+ext/curses/curses.c:#if defined(HAVE_WGETNSTR)
+ext/curses/curses.c:#if defined(HAVE_WDELETELN) || defined(wdeleteln)
+ext/curses/curses.c:#ifdef HAVE_WSETSCRREG
+ext/curses/curses.c:#ifdef HAVE_WSCRL
+ext/curses/curses.c:#ifdef HAVE_WATTROFF
+ext/curses/curses.c:#ifdef HAVE_WATTRON
+ext/curses/curses.c:#ifdef HAVE_WATTRSET
+ext/curses/curses.c:#ifdef HAVE_WBKGDSET
+ext/curses/curses.c:#ifdef HAVE_WBKGD
+ext/curses/curses.c:#ifdef HAVE_WGETBKGD
+ext/curses/curses.c:#if defined(HAVE_WRESIZE)
+ext/curses/curses.c:#ifdef HAVE_KEYPAD
+ext/curses/curses.c:#endif /* HAVE_KEYPAD */
+ext/curses/curses.c:#ifdef HAVE_NODELAY
+ext/curses/curses.c:#ifdef HAVE_WTIMEOUT
+ext/dbm/dbm.c:#ifdef HAVE_CDEFS_H
+ext/dbm/dbm.c:#ifdef HAVE_SYS_CDEFS_H
+ext/dbm/dbm.c:#ifdef HAVE_DBM_CLEARERR
+ext/digest/defs.h:#if defined(HAVE_SYS_CDEFS_H)
+ext/digest/defs.h:#if defined(HAVE_INTTYPES_H)
+ext/dl/dl.h:#if defined(HAVE_DLFCN_H)
+ext/dl/dl.h:# if defined(HAVE_WINDOWS_H)
+ext/dl/handle.c:#if defined(HAVE_DLERROR)
+ext/dl/handle.c:#if defined(HAVE_DLERROR)
+ext/dl/handle.c:#if defined(HAVE_DLERROR)
+ext/dl/sym.c:#ifdef HAVE_WINDOWS_H
+ext/etc/etc.c:#ifdef HAVE_UNISTD_H
+ext/etc/etc.c:#ifdef HAVE_GETPWENT
+ext/etc/etc.c:#ifdef HAVE_GETGRENT
+ext/etc/etc.c:#ifdef HAVE_GETLOGIN
+ext/etc/etc.c:#if defined(HAVE_GETPWENT) || defined(HAVE_GETGRENT)
+ext/etc/etc.c:#ifdef HAVE_GETPWENT
+ext/etc/etc.c:#ifdef HAVE_ST_PW_PASSWD
+ext/etc/etc.c:#ifdef HAVE_ST_PW_GECOS
+ext/etc/etc.c:#ifdef HAVE_ST_PW_CHANGE
+ext/etc/etc.c:#ifdef HAVE_ST_PW_QUOTA
+ext/etc/etc.c:#ifdef HAVE_ST_PW_AGE
+ext/etc/etc.c:#ifdef HAVE_ST_PW_CLASS
+ext/etc/etc.c:#ifdef HAVE_ST_PW_COMMENT
+ext/etc/etc.c:#ifdef HAVE_ST_PW_EXPIRE
+ext/etc/etc.c:#if defined(HAVE_GETPWENT)
+ext/etc/etc.c:#ifdef HAVE_GETPWENT
+ext/etc/etc.c:#ifdef HAVE_GETPWENT
+ext/etc/etc.c:#ifdef HAVE_GETPWENT
+ext/etc/etc.c:#ifdef HAVE_GETPWENT
+ext/etc/etc.c:#ifdef HAVE_GETPWENT
+ext/etc/etc.c:#ifdef HAVE_GETPWENT
+ext/etc/etc.c:#ifdef HAVE_GETGRENT
+ext/etc/etc.c:#ifdef HAVE_ST_GR_PASSWD
+ext/etc/etc.c:#ifdef HAVE_GETGRENT
+ext/etc/etc.c:#ifdef HAVE_GETGRENT
+ext/etc/etc.c:#ifdef HAVE_GETGRENT
+ext/etc/etc.c:#ifdef HAVE_GETGRENT
+ext/etc/etc.c:#ifdef HAVE_GETGRENT
+ext/etc/etc.c:#ifdef HAVE_GETGRENT
+ext/etc/etc.c:#ifdef HAVE_GETGRENT
+ext/etc/etc.c:#ifdef HAVE_ST_PW_GECOS
+ext/etc/etc.c:#ifdef HAVE_ST_PW_CHANGE
+ext/etc/etc.c:#ifdef HAVE_ST_PW_QUOTA
+ext/etc/etc.c:#ifdef HAVE_ST_PW_AGE
+ext/etc/etc.c:#ifdef HAVE_ST_PW_CLASS
+ext/etc/etc.c:#ifdef HAVE_ST_PW_COMMENT
+ext/etc/etc.c:#ifdef HAVE_ST_PW_EXPIRE
+ext/etc/etc.c:#ifdef HAVE_GETGRENT
+ext/iconv/iconv.c:#ifdef HAVE_PROTOTYPES
+ext/iconv/iconv.c:#else /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#endif /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#ifdef HAVE_PROTOTYPES
+ext/iconv/iconv.c:#else /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#endif /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#ifdef HAVE_PROTOTYPES
+ext/iconv/iconv.c:#else /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#endif /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#ifdef HAVE_PROTOTYPES
+ext/iconv/iconv.c:#else /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#endif /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#ifdef HAVE_PROTOTYPES
+ext/iconv/iconv.c:#else /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#endif /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#ifdef HAVE_PROTOTYPES
+ext/iconv/iconv.c:#else /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#endif /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#ifdef HAVE_PROTOTYPES
+ext/iconv/iconv.c:#else /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#endif /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#ifdef HAVE_PROTOTYPES
+ext/iconv/iconv.c:#else /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#endif /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#ifdef HAVE_PROTOTYPES
+ext/iconv/iconv.c:#else /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#endif /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#ifdef HAVE_PROTOTYPES
+ext/iconv/iconv.c:#else /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#endif /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#ifdef HAVE_PROTOTYPES
+ext/iconv/iconv.c:#else /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#endif /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#ifdef HAVE_PROTOTYPES
+ext/iconv/iconv.c:#else /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#endif /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#ifdef HAVE_PROTOTYPES
+ext/iconv/iconv.c:#else /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#endif /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#ifdef HAVE_PROTOTYPES
+ext/iconv/iconv.c:#else /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#endif /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#ifdef HAVE_PROTOTYPES
+ext/iconv/iconv.c:#else /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#endif /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#ifdef HAVE_PROTOTYPES
+ext/iconv/iconv.c:#else /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#endif /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#ifdef HAVE_PROTOTYPES
+ext/iconv/iconv.c:#else /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#endif /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#ifdef HAVE_PROTOTYPES
+ext/iconv/iconv.c:#else /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#endif /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#ifdef HAVE_PROTOTYPES
+ext/iconv/iconv.c:#else /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#endif /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#ifdef HAVE_PROTOTYPES
+ext/iconv/iconv.c:#else /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#endif /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#ifdef HAVE_PROTOTYPES
+ext/iconv/iconv.c:#else /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#endif /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#ifdef HAVE_PROTOTYPES
+ext/iconv/iconv.c:#else /* HAVE_PROTOTYPES */
+ext/iconv/iconv.c:#endif /* HAVE_PROTOTYPES */
+ext/openssl/extconf.187.h:#define HAVE_ASSERT_H 1
+ext/openssl/extconf.187.h:#define HAVE_OPENSSL_SSL_H 1
+ext/openssl/extconf.187.h:#define HAVE_OPENSSL_CONF_API_H 1
+ext/openssl/extconf.187.h:#define HAVE_RB_STR_SET_LEN 1
+ext/openssl/extconf.187.h:#define HAVE_RB_BLOCK_CALL 1
+ext/openssl/extconf.187.h:#define HAVE_ERR_PEEK_LAST_ERROR 1
+ext/openssl/extconf.187.h:#define HAVE_BN_MOD_ADD 1
+ext/openssl/extconf.187.h:#define HAVE_BN_MOD_SQR 1
+ext/openssl/extconf.187.h:#define HAVE_BN_MOD_SUB 1
+ext/openssl/extconf.187.h:#define HAVE_BN_PSEUDO_RAND_RANGE 1
+ext/openssl/extconf.187.h:#define HAVE_BN_RAND_RANGE 1
+ext/openssl/extconf.187.h:#define HAVE_CONF_GET1_DEFAULT_CONFIG_FILE 1
+ext/openssl/extconf.187.h:#define HAVE_EVP_CIPHER_CTX_COPY 1
+ext/openssl/extconf.187.h:#define HAVE_EVP_CIPHER_CTX_SET_PADDING 1
+ext/openssl/extconf.187.h:#define HAVE_EVP_CIPHERFINAL_EX 1
+ext/openssl/extconf.187.h:#define HAVE_EVP_CIPHERINIT_EX 1
+ext/openssl/extconf.187.h:#define HAVE_EVP_DIGESTFINAL_EX 1
+ext/openssl/extconf.187.h:#define HAVE_EVP_DIGESTINIT_EX 1
+ext/openssl/extconf.187.h:#define HAVE_EVP_MD_CTX_CLEANUP 1
+ext/openssl/extconf.187.h:#define HAVE_EVP_MD_CTX_CREATE 1
+ext/openssl/extconf.187.h:#define HAVE_EVP_MD_CTX_DESTROY 1
+ext/openssl/extconf.187.h:#define HAVE_EVP_MD_CTX_INIT 1
+ext/openssl/extconf.187.h:#define HAVE_HMAC_CTX_CLEANUP 1
+ext/openssl/extconf.187.h:#define HAVE_HMAC_CTX_COPY 1
+ext/openssl/extconf.187.h:#define HAVE_HMAC_CTX_INIT 1
+ext/openssl/extconf.187.h:#define HAVE_PEM_DEF_CALLBACK 1
+ext/openssl/extconf.187.h:#define HAVE_PKCS5_PBKDF2_HMAC 1
+ext/openssl/extconf.187.h:#define HAVE_PKCS5_PBKDF2_HMAC_SHA1 1
+ext/openssl/extconf.187.h:#define HAVE_X509V3_SET_NCONF 1
+ext/openssl/extconf.187.h:#define HAVE_X509V3_EXT_NCONF_NID 1
+ext/openssl/extconf.187.h:#define HAVE_X509_CRL_ADD0_REVOKED 1
+ext/openssl/extconf.187.h:#define HAVE_X509_CRL_SET_ISSUER_NAME 1
+ext/openssl/extconf.187.h:#define HAVE_X509_CRL_SET_VERSION 1
+ext/openssl/extconf.187.h:#define HAVE_X509_CRL_SORT 1
+ext/openssl/extconf.187.h:#define HAVE_X509_NAME_HASH_OLD 1
+ext/openssl/extconf.187.h:#define HAVE_X509_STORE_GET_EX_DATA 1
+ext/openssl/extconf.187.h:#define HAVE_X509_STORE_SET_EX_DATA 1
+ext/openssl/extconf.187.h:#define HAVE_OBJ_NAME_DO_ALL_SORTED 1
+ext/openssl/extconf.187.h:#define HAVE_SSL_SESSION_GET_ID 1
+ext/openssl/extconf.187.h:#define HAVE_OPENSSL_CLEANSE 1
+ext/openssl/extconf.187.h:#define HAVE_VA_ARGS_MACRO 1
+ext/openssl/extconf.187.h:#define HAVE_SSL_SET_TLSEXT_HOST_NAME 1
+ext/openssl/extconf.187.h:#define HAVE_OPENSSL_ENGINE_H 1
+ext/openssl/extconf.187.h:#define HAVE_ENGINE_ADD 1
+ext/openssl/extconf.187.h:#define HAVE_ENGINE_LOAD_BUILTIN_ENGINES 1
+ext/openssl/extconf.187.h:#define HAVE_ENGINE_GET_DIGEST 1
+ext/openssl/extconf.187.h:#define HAVE_ENGINE_GET_CIPHER 1
+ext/openssl/extconf.187.h:#define HAVE_ENGINE_CLEANUP 1
+ext/openssl/extconf.187.h:#define HAVE_OPENSSL_OCSP_H 1
+ext/openssl/extconf.187.h:#define HAVE_ST_FLAGS 1
+ext/openssl/extconf.187.h:#define HAVE_ST_ENGINE 1
+ext/openssl/extconf.187.h:#define HAVE_ST_SINGLE 1
+ext/openssl/openssl_missing.c:#if !defined(HAVE_HMAC_CTX_COPY)
+ext/openssl/openssl_missing.c:#endif /* HAVE_HMAC_CTX_COPY */
+ext/openssl/openssl_missing.c:#if !defined(HAVE_X509_STORE_SET_EX_DATA)
+ext/openssl/openssl_missing.c:#if !defined(HAVE_EVP_MD_CTX_CREATE)
+ext/openssl/openssl_missing.c:#if !defined(HAVE_EVP_MD_CTX_CLEANUP)
+ext/openssl/openssl_missing.c:#if !defined(HAVE_EVP_MD_CTX_DESTROY)
+ext/openssl/openssl_missing.c:#if !defined(HAVE_EVP_MD_CTX_INIT)
+ext/openssl/openssl_missing.c:#if !defined(HAVE_HMAC_CTX_INIT)
+ext/openssl/openssl_missing.c:#if !defined(HAVE_HMAC_CTX_CLEANUP)
+ext/openssl/openssl_missing.c:#if !defined(HAVE_X509_CRL_SET_VERSION)
+ext/openssl/openssl_missing.c:#if !defined(HAVE_X509_CRL_SET_ISSUER_NAME)
+ext/openssl/openssl_missing.c:#if !defined(HAVE_X509_CRL_SORT)
+ext/openssl/openssl_missing.c:#if !defined(HAVE_X509_CRL_ADD0_REVOKED)
+ext/openssl/openssl_missing.c:#if !defined(HAVE_BN_MOD_SQR)
+ext/openssl/openssl_missing.c:#if !defined(HAVE_BN_MOD_ADD) || !defined(HAVE_BN_MOD_SUB)
+ext/openssl/openssl_missing.c:#if !defined(HAVE_BN_MOD_ADD)
+ext/openssl/openssl_missing.c:#if !defined(HAVE_BN_MOD_SUB)
+ext/openssl/openssl_missing.c:#if !defined(HAVE_BN_RAND_RANGE) || !defined(HAVE_BN_PSEUDO_RAND_RANGE)
+ext/openssl/openssl_missing.c:#if !defined(HAVE_BN_RAND_RANGE)
+ext/openssl/openssl_missing.c:#if !defined(HAVE_BN_PSEUDO_RAND_RANGE)
+ext/openssl/openssl_missing.c:#if !defined(HAVE_CONF_GET1_DEFAULT_CONFIG_FILE)
+ext/openssl/openssl_missing.c:#if !defined(HAVE_PEM_DEF_CALLBACK)
+ext/openssl/ossl.c:#if !defined(HAVE_VA_ARGS_MACRO)
+ext/openssl/ossl.h:#ifdef HAVE_ASSERT_H
+ext/openssl/ossl.h:#if defined(HAVE_OPENSSL_ENGINE_H) && !defined(OPENSSL_NO_ENGINE)
+ext/openssl/ossl.h:#if defined(HAVE_OPENSSL_OCSP_H)
+ext/openssl/ossl.h:#if defined(HAVE_VA_ARGS_MACRO)
+ext/openssl/ossl_asn1.c:#if defined(HAVE_SYS_TIME_H)
+ext/openssl/ossl_cipher.c:#if defined(HAVE_ST_FLAGS)
+ext/openssl/ossl_engine.c:#if !defined(HAVE_ENGINE_LOAD_BUILTIN_ENGINES)
+ext/openssl/ossl_engine.c:#ifdef HAVE_ENGINE_LOAD_OPENBSD_DEV_CRYPTO
+ext/openssl/ossl_engine.c:#endif /* HAVE_ENGINE_LOAD_BUILTIN_ENGINES */
+ext/openssl/ossl_engine.c:#if defined(HAVE_ENGINE_CLEANUP)
+ext/openssl/ossl_engine.c:#if defined(HAVE_ENGINE_GET_CIPHER)
+ext/openssl/ossl_engine.c:#if defined(HAVE_ENGINE_GET_DIGEST)
+ext/openssl/ossl_ssl.c:#if defined(HAVE_UNISTD_H)
+ext/openssl/ossl_x509attr.c:#if defined(HAVE_ST_X509_ATTRIBUTE_SINGLE) || defined(HAVE_ST_SINGLE)
+ext/openssl/ossl_x509ext.c:#ifdef HAVE_X509V3_SET_NCONF
+ext/pty/pty.c:#ifdef HAVE_SYS_IOCTL_H
+ext/pty/pty.c:#ifdef HAVE_LIBUTIL_H
+ext/pty/pty.c:#ifdef HAVE_PTY_H
+ext/pty/pty.c:#ifdef HAVE_SYS_WAIT_H
+ext/pty/pty.c:#ifdef HAVE_SYS_STROPTS_H
+ext/pty/pty.c:#ifdef HAVE_UNISTD_H
+ext/pty/pty.c:#if !defined(HAVE_OPENPTY)
+ext/pty/pty.c:#elif !defined(HAVE_PTSNAME)
+ext/pty/pty.c:#endif /* !defined(HAVE_OPENPTY) */
+ext/pty/pty.c:#ifndef HAVE_SETEUID
+ext/pty/pty.c:# ifdef HAVE_SETREUID
+ext/pty/pty.c:# else /* NOT HAVE_SETREUID */
+ext/pty/pty.c:#  ifdef HAVE_SETRESUID
+ext/pty/pty.c:#  else /* NOT HAVE_SETRESUID */
+ext/pty/pty.c:#  endif /* HAVE_SETRESUID */
+ext/pty/pty.c:# endif /* HAVE_SETREUID */
+ext/pty/pty.c:#ifdef HAVE_SETSID
+ext/pty/pty.c:# ifdef HAVE_SETPGRP
+ext/pty/pty.c:# endif /* HAVE_SETPGRP */
+ext/pty/pty.c:#if defined(HAVE_SETEUID) || defined(HAVE_SETREUID) || defined(HAVE_SETRESUID)
+ext/pty/pty.c:#ifdef HAVE_OPENPTY
+ext/pty/pty.c:#else /* HAVE_OPENPTY */
+ext/pty/pty.c:#ifdef HAVE__GETPTY
+ext/pty/pty.c:#else /* HAVE__GETPTY */
+ext/pty/pty.c:#ifdef HAVE_PTSNAME
+ext/pty/pty.c:#endif /* HAVE__GETPTY */
+ext/pty/pty.c:#endif /* HAVE_OPENPTY */
+ext/readline/readline.c:#ifdef HAVE_UNISTD_H
+ext/sdbm/_sdbm.c:#ifdef HAVE_UNISTD_H
+ext/sdbm/init.c:#ifdef HAVE_DBM_CLAERERR
+ext/socket/addrinfo.h:#ifndef HAVE_GETADDRINFO
+ext/socket/addrinfo.h:# ifdef HAVE_PROTOTYPES
+ext/socket/getaddrinfo.c:#if defined(HAVE_ARPA_INET_H)
+ext/socket/getaddrinfo.c:#if defined(HAVE_ARPA_NAMESER_H)
+ext/socket/getaddrinfo.c:#if defined(HAVE_RESOLV_H)
+ext/socket/getaddrinfo.c:#ifndef HAVE_INET_PTON
+ext/socket/getaddrinfo.c:#ifdef HAVE_INET_ATON
+ext/socket/getaddrinfo.c:#if defined(HAVE_CLOSESOCKET)
+ext/socket/getaddrinfo.c:#ifdef HAVE_ADDR8
+ext/socket/getnameinfo.c:#if defined(HAVE_ARPA_INET_H)
+ext/socket/getnameinfo.c:#if defined(HAVE_ARPA_NAMESER_H)
+ext/socket/getnameinfo.c:#if defined(HAVE_RESOLV_H)
+ext/socket/getnameinfo.c:#ifndef HAVE_INET_NTOP
+ext/socket/getnameinfo.c:#ifdef HAVE_INET_NTOA
+ext/socket/getnameinfo.c:#if defined(HAVE_GETSERVBYPORT)
+ext/socket/getnameinfo.c:#ifdef HAVE_ADDR8
+ext/socket/socket.c:#ifdef HAVE_UNISTD_H
+ext/socket/socket.c:#ifdef HAVE_SYS_UIO_H
+ext/socket/socket.c:#ifdef HAVE_NETINET_IN_SYSTM_H
+ext/socket/socket.c:#ifdef HAVE_NETINET_TCP_H
+ext/socket/socket.c:#ifdef HAVE_NETINET_UDP_H
+ext/socket/socket.c:#ifdef HAVE_SYS_UN_H
+ext/socket/socket.c:#if defined(HAVE_FCNTL)
+ext/socket/socket.c:#ifdef HAVE_SYS_SELECT_H
+ext/socket/socket.c:#ifndef HAVE_GETADDRINFO
+ext/socket/socket.c:#ifndef HAVE_SOCKADDR_STORAGE
+ext/socket/socket.c:#ifdef HAVE_SA_LEN
+ext/socket/socket.c:#ifdef HAVE_CLOSESOCKET
+ext/socket/socket.c:#ifdef HAVE_SYS_UN_H
+ext/socket/socket.c:#ifdef HAVE_SYS_UN_H
+ext/socket/socket.c:#if defined(HAVE_FCNTL)
+ext/socket/socket.c:#endif /* HAVE_FCNTL */
+ext/socket/socket.c:#ifdef HAVE_FCNTL
+ext/socket/socket.c:#if defined(HAVE_GETIPNODEBYNAME)
+ext/socket/socket.c:#elif defined(HAVE_GETHOSTBYNAME2)
+ext/socket/socket.c:#if defined(HAVE_GETIPNODEBYNAME)
+ext/socket/socket.c:#ifdef HAVE_SYS_UN_H
+ext/socket/socket.c:#ifdef HAVE_SYS_UN_H
+ext/socket/socket.c:#if defined(HAVE_SENDMSG) && (defined(HAVE_ST_MSG_CONTROL) || defined(HAVE_ST_MSG_ACCRIGHTS))
+ext/socket/socket.c:#if defined(HAVE_ST_MSG_CONTROL)
+ext/socket/socket.c:#if defined(HAVE_ST_MSG_CONTROL)
+ext/socket/socket.c:#if defined(HAVE_RECVMSG) && (defined(HAVE_ST_MSG_CONTROL) || defined(HAVE_ST_MSG_ACCRIGHTS))
+ext/socket/socket.c:#if defined(HAVE_RECVMSG) && (defined(HAVE_ST_MSG_CONTROL) || defined(HAVE_ST_MSG_ACCRIGHTS))
+ext/socket/socket.c:#if defined(HAVE_ST_MSG_CONTROL)
+ext/socket/socket.c:#if defined(HAVE_ST_MSG_CONTROL)
+ext/socket/socket.c:#if defined(HAVE_ST_MSG_CONTROL)
+ext/socket/socket.c:#if defined(HAVE_ST_MSG_CONTROL)
+ext/socket/socket.c:#ifdef HAVE_SYS_UN_H
+ext/socket/socket.c:#ifdef HAVE_GETHOSTNAME
+ext/socket/socket.c:#ifdef HAVE_UNAME
+ext/socket/socket.c:#ifdef HAVE_HSTRERROR
+ext/socket/socket.c:#ifdef HAVE_SYS_UN_H
+ext/socket/socket.c:#ifdef HAVE_SYS_UN_H
+ext/socket/socket.c:#ifdef HAVE_SYS_UN_H
+ext/socket/sockport.h:# ifdef HAVE_SA_LEN
+ext/socket/sockport.h:#ifdef HAVE_SA_LEN
+ext/socket/sockport.h:#ifdef HAVE_SIN_LEN
+ext/syck/syck.h:#if defined(HAVE_ALLOCA_H) && !defined(__GNUC__)
+ext/tcltklib/stubs.c:#elif defined HAVE_DLOPEN
+ext/tcltklib/tcltklib.c:#ifdef HAVE_STDARG_PROTOTYPES
+ext/tcltklib/tcltklib.c:#ifdef HAVE_STDARG_PROTOTYPES
+ext/win32ole/win32ole.c:#ifdef HAVE_STDARG_PROTOTYPES
+ext/win32ole/win32ole.c:#ifdef HAVE_STDARG_PROTOTYPES

@@ -1,0 +1,3 @@
+# en.UTF-8
+
+Ruby "fork" to use within tapir fork (coming soon). This is the same release as found in https://cache.ruby-lang.org/pub/ruby/ . The only cosmetic changes were header path, and removal of some weird "Init_ext" from the code, that got nothing to do with the current extensions, as far as I tested.
